@@ -1,13 +1,383 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Yeseva+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    box-shadow: 0px 4px 10px 0px #0000000D;
+}
+.header__container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1341px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 82px;
+}
+.header__container--logo{
+    width: 100%;
+    max-width: 369px;
+    display: flex;
+    align-items: center;
+}
+.header__container--logo--title{
+    margin-right: 30px;
+    font-family: Yeseva One;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 35px;
+    line-height: 120%;
+    letter-spacing: 0%;
+
+}
+.header__container--logo--btn{
+    background-color: #FFF2F2;
+    font-family: Roboto;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #8E4A4E;
+    border: none;
+    border-radius: 36px;
+    width: 100%;
+    max-width: 185px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.header__container--logo--btn--img{
+    margin-right: 10px;
+}
+.header__container--nav{
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__container--nav--link{
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #011936;
+}
+.header__container--user{
+    width: 100%;
+    max-width: 145px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.header__container--user--login{
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #43607C;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    cursor: pointer;
+}
+.SomeSweet{
+    margin-top: 40px;
+}
+.SomeSweet__container{
+    width: 842px;
+}
+.SomeSweet__container--box{
+    width: 463px;
+}
+.SomeSweet__container--box--title{
+    font-family: Yeseva One;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 42px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-bottom: 15px;
+}
+.SomeSweet__container--box--p{
+    font-family: Verdana;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #43607C;
+    margin-bottom: 30px;
+}
+.SomeSweet__container--box--label{
+    display: flex;
+    width: 842px;
+    margin-bottom: 30px;
+}
+.SomeSweet__container--box--label--input{
+    width: 720px;
+    height: 50px;
+    border: 1px solid #DFDFDF;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.SomeSweet__container--box--label--btn{
+    width: 100%;
+    max-width: 132px;
+    height: 52px;
+    background-color: #FDAD6D;
+    color: #8E4A4E;
+    font-family: Verdana;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    border: none;
+    cursor: pointer;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.SomeSweet__container--categories{
+    display: flex;
+    width: 100%;
+    max-width: 652px;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.SomeSweet__container--categories--btn{
+    padding: 5px 20px 5px 20px;
+    height: 36px;
+    background-color: #FFF2F2 ;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    border: none;
+    border-radius: 20px;
+    color: #8E4A4E;
+    cursor: pointer;
+}
+.SomeSweet__container--categories--select{
+    height: 36px;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    color: #8E4A4E;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+}
+.SomeSweet__container--slider{
+    width: 100%;
+    max-width: 842px;
+    height: 178px;
+    display: flex;
+    justify-content: space-between;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.SomeSweet__container--slider--img{
+    width: 100%;
+    max-width: 152px;
+    height: 100px;
+}
+.SomeSweet__container--slider--arrows{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 15px;
+}
+.SomeSweet__container--slider--arrows--img{
+    cursor: pointer;
+}
+.SomeSweet__pngs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    max-width: 520px;
+    width: 100%;
+
+}
+.SomeSweet__pngs--first--image1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    height: 300px;
+}
+.SomeSweet__pngs--second--image2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+}
+.SomeSweet__pngs--third--image3{
+    height: 620px;
+    object-fit: cover;
+}
+.SomeSweet__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1472px;
+    margin: 0 auto;
+}
+.cakes{
+    margin-top: 40px;
+}
+.cakes__container{
+    width: 100%;
+    max-width: 1472px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.cakes__container--title{
+    font-family: Yeseva One;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 35px;
+    line-height: 120%;
+    letter-spacing: 0%;
+
+}
+.cakes__container--nav{
+    width: 100%;
+    max-width: 219px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.cakes__container--nav--button{
+    width: 146px;
+    height: 30px;
+    background-color: #DCEBF8;
+    border-radius: 30px;
+    border: none;
+    margin-right: 20px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #43607C;
+}
+.cakes__container--cards{
+    width: 1472px;
+    display: flex;
+    margin: 0 auto;
+    gap: 18px;
+}
+.cakes__container--cards--containers{
+    box-shadow: 0px 2px 5px 0px #43607C26;
+    border-radius: 10px;
+}
+.cakes__container--cards--containers--price{
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #A63A50;
+    margin-bottom: 5px;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+.cakes__container--cards--containers--title{
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #011936;
+    margin-bottom: 5px;
+    height: 40px;
+    padding-left: 15px;
+}
+.cakes__container--cards--containers--vars{
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #84A6C2;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+.cupcakes{
+    margin-top: 60px;
+}
+.ad{
+    margin-top: 80px;
+    width: 100%;
+    background-color: #DCEBF8;
+    height: 256px;
+}
+.ad__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ad__container--title{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Yeseva One;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 35px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #011936;
+}
+.ad__container--peshka{
+    margin-top: 10px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #43607C;
+    margin-bottom: 28px;
+}
+.ad__container--btn{
+    width: 237px;
+    height: 40px;
+    background-color: #43607C;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 30px;
+    margin: 0 auto;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+
 }
