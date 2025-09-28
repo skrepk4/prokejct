@@ -334,6 +334,7 @@
     width: 100%;
     background-color: #DCEBF8;
     height: 256px;
+    margin-bottom: 80px;
 }
 .ad__container{
     display: flex;
@@ -380,4 +381,285 @@
     line-height: 24px;
     letter-spacing: 0%;
 
+}
+.workers__container{
+    width: 100%;
+    max-width: 1472px;
+    display: flex;
+    margin: 0 auto;
+    gap: 23px;
+    margin-bottom: 80px;
+}
+
+.workers__container--cards--containers--card{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 2px 10px 0px #43607C40;
+
+}
+.workers__container--cards--containers--img{
+    width: 180px;
+    height: 180px;
+    padding: 15px 15px 15px 15px;
+}
+.workers__container--cards--container--info{
+    margin-left: 25px;
+    height: 163px;
+    margin-top: 23px;
+}
+.workers__container--cards--containers--name{
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #43607C;
+    margin-bottom: 5px;
+}
+.workers__container--cards--containers--review{
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0%;
+    color: #A63A50;
+}
+.workers__container--cards--containers--bio{
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #43607C;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.workers__container--cards--containers--buttons{
+    padding: 2px 10px 2px 10px;
+    margin-right: 4px;
+    gap: 30px;
+    background-color: #FFF2F2;
+    border: none;
+    border-radius: 30px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #A63A50;
+}
+.articles__container{
+    width: 100%;
+    max-width: 1472px;
+    display: flex;
+    margin: 0 auto;
+    gap: 18px;
+    margin-bottom: 80px;
+}
+.articles__container--cards{
+    width: 100%;
+    max-width: 280px;
+    box-shadow: 0px 2px 10px 0px #43607C40;
+    border-radius: 5px ;
+}
+
+.articles__container--cards--title{
+    margin-top: 20px;
+    width: 100%;
+    max-width: 248px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #43607C;
+    margin-bottom: 20px;
+    padding-left: 16px;
+}
+.articles__container--cards--about{
+    width: 100%;
+    max-width: 248px;
+    padding-left: 16px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #43607C;
+    margin-bottom: 15px;
+}
+.footer{
+    width: 100%;
+    height: 174px;
+    background-color: #011936 ;
+}
+.footer__container--content{
+    display: flex;
+    justify-content: space-evenly;
+   padding-top: 40px;
+}
+.footer__container--content--main--title{
+    font-family: Yeseva One;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 35px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.footer__container--content--main--btn{
+    padding: 11px;
+    width: 100%;
+    max-width: 163px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    color: #8E4A4E;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__container--content--main--btn--img{
+    margin-right: 10px;
+    
+}
+.footer__container--content--nav{
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__container--content--nav--first{
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0%;
+    color: #FFFFFF;
+}
+.footer__container--content--nav--second{
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0%;
+    color: #FFFFFF;
+}
+.footer__container--content--nav--third{
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0%;
+    color: #FFFFFF;
+}
+.footer__container--content--rules{
+    width: 248px;
+    display: flex;
+    flex-direction: column;
+}
+.footer__container--content--rules--button1{
+    width: 248px;
+    height: 39px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: #FFFFFF ;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0%;
+
+}
+.footer__container--content--rules--button2{
+    width: 248px;
+    height: 39px;
+    border: none;
+    color: #011936 ;
+    border-radius: 30px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0%;
+
+    
+}
+.footer__container--content--media{
+    width: 129px;
+    height: 94px;
+}
+.footer__container--content--media--copyright{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+    font-family: Verdana;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.footer__container--content--media--copyright--second{
+    font-family: Verdana;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.footer__container--content--media--buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer__container--content--media--button1{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    background-color: black;
+}
+.footer__container--content--media--button2{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    background-color: black;
 }
